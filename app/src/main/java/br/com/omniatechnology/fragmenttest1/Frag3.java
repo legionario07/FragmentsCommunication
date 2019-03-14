@@ -60,6 +60,7 @@ public class Frag3 extends Fragment implements InterfacesClass.FragmentLifecycle
 
     @Override
     public void onResumeFragment() {
+
         txtName.setText(fragmentCommunication.getUser().getName());
         txtEmail.setText(fragmentCommunication.getUser().getEmail());
         txtCity.setText(fragmentCommunication.getUser().getCity());
