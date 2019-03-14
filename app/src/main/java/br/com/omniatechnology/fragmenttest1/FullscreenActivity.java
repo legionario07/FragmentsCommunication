@@ -26,7 +26,6 @@ import java.util.List;
  */
 public class FullscreenActivity extends FragmentActivity implements IFragmentCommunication{
 
-    private static final int NUM_PAGES = 3;
     private ViewPager viewPager;
     private PagerAdapter pagerAdapter;
 
@@ -92,7 +91,7 @@ public class FullscreenActivity extends FragmentActivity implements IFragmentCom
 
         @Override
         public int getCount() {
-            return NUM_PAGES;
+            return fragments.size();
         }
     }
 
