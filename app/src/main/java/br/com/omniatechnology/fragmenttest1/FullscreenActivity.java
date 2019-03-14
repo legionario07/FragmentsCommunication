@@ -54,7 +54,6 @@ public class FullscreenActivity extends FragmentActivity implements IFragmentCom
     }
 
 
-
     public static class ScreenSlidePageAdapter extends FragmentStatePagerAdapter {
 
         List<Fragment> fragments;
